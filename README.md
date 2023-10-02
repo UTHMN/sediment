@@ -5,7 +5,7 @@ transparency into rejections, without logging the plaintext password being used.
 
 ## Setup
 Once this project is finished, an MSI installer will be provided which will include the password filter DLL, and an optional CLI available for managing the compromised and banned password lists. It will also create
-required registry keys by default. These will be used to find the install path among other things
+required registry keys by default. These will be used to find the install path among other things.
 
 ## Usage
 Once available, the filter itself is intended to be installed on all domain controllers (DCs) in your environment, as authentication is distributed among them. After being installed, a reboot will be required for
